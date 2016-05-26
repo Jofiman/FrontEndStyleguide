@@ -1,0 +1,109 @@
+@media screen and (max-width: 767px) {
+     header {
+        padding: 15px 12px;
+        height: 50px;
+         .date {
+             font-size: 20px;
+                 margin-top: -7px;
+         }
+    }
+    .navbar-toggle {
+        margin: 0;
+        top: -7px;
+        padding: 9px 0;
+    }
+    
+}
+@media screen and (max-width: 600px) {
+    .twoimages .image-box {
+        height: 160px;
+        line-height: normal;
+        font-size: 25px;
+        padding-top: 50px;
+        span {
+            display: block;
+            color: #fff;
+            &:hover {
+                color: #fff;
+            }
+        }
+        &.woman {
+            background-image: url(../img/woman.png);
+            background-color: #d2d7d9;
+            background-position: center top;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        &.man {
+            background-image: url(../img/man.png);
+            background-color: #d2d7d9;
+            background-position: center top;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+    .free-delivery {
+         font-size: 18px;   
+    }
+    .latest-product {
+        .one-product {
+            width: 100%;
+            float: none;
+            &:first-child {
+                margin-bottom: 40px;
+            }
+            figure, .description {
+                height: auto;
+                width: 100%;
+                float: none;
+                a{
+                    height: auto;
+                    display: block;
+                    width: 100%;
+                    img {
+                        margin: 0 auto;
+                    }
+                }
+            }
+            h3 {
+                font-size: 17px;
+                margin-top: 0;
+            }
+        }
+    }
+    footer {
+        .footer-content {
+            padding: 30px 10px;
+            .btn-blue {
+                margin-right: 10px;
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+        .footer-bottom {
+            padding: 20px 0;
+            line-height: normal;
+            height: auto;
+	        .footer-bottom-content {
+                text-align: center;
+                ul, p {
+                    float: none !important;
+                }
+                ul {
+                    li {
+                        display: inline-block;
+                        float: none;
+                    }
+                }
+                
+            }
+        }
+    }
+}
+@media screen and (max-width: 325px) {
+    .container {
+        width: 309px;
+    }
+    
+}

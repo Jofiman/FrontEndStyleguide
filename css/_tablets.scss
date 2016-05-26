@@ -1,0 +1,28 @@
+@media screen and (max-width: 991px) {
+    
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .latest-product {
+        .one-product {
+            figure {
+                height: auto;
+                a{
+                    height: 190px;
+                }
+            }
+            h3 {
+                font-size: 17px;
+                margin-top: 0;
+            }
+        }
+    }
+    header .small-menu ul li .dropdown-nav .dropdown-content.only.bottom .arrow {
+        right: 343px;
+    }
+    header .small-menu ul li:nth-child(2) .dropdown-nav .dropdown-content.only.bottom .arrow {
+        right: 413px;
+    }
+    header .small-menu ul li:nth-child(4) .dropdown-nav .dropdown-content.only.bottom .arrow {
+        right: 255px;
+    }
+}
